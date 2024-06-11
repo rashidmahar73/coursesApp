@@ -1,0 +1,25 @@
+.subHeader {
+    display: flex;
+    .rating {
+      color: var(--color-orange-300);
+      font-family: var(--font-stack-heading);
+      font-size: 15px;
+      font-weight: 500;
+      line-height: 1.2;
+      letter-spacing: 0;
+      border: 0px;
+      padding: 0px;
+    }
+    .ratingCount {
+      color: #c0c4fc;
+      text-decoration: underline;
+      font-size: 14px;
+      font-weight: 500;
+    }
+    .stdCount{
+      padding-left: 4px;
+      color: white;
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
